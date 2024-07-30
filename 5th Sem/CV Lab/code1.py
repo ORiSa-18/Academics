@@ -25,6 +25,13 @@ print(gray_image.size)
 #Acccess value of the pixel in the image
 print(image[0,0])
 
+#changing values of pixels
+image_array = np.array(image)
+print(image_array)
+image_array[0:100] = [0,0,0]
+plt.imshow(image_array,interpolation='nearest')
+plt.show()
+
 
 
 
