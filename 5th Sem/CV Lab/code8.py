@@ -1,7 +1,7 @@
 # edge detection using sobel operator and Canny edge detector
 import cv2
 # load image
-img = cv2.imread("Images/dhoni.jpg")
+img = cv2.imread("Images/building.jpg")
 # convert to grayscale
 img_gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 # apply gaussian blur to remove noise
