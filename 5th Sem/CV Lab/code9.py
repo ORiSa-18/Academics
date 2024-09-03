@@ -1,5 +1,5 @@
 import cv2
-
+import numpy as np
 # Load image
 img = cv2.imread("Images/ambigram.jpeg")
 
